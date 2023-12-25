@@ -1,239 +1,277 @@
 body {
-    background-color: #3A4764;
-    font-family: 'League Spartan', sans-serif;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  background-color: #3a4764;
+  font-family: "League Spartan", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 body.white {
-    background-color: #E6E6E6;
+  background-color: #e6e6e6;
 }
 body.purple {
-    background-color: #160628;
+  background-color: #160628;
+}
+.calculator {
+  margin-left: 120px;
+}
+@media screen and (min-width: 400px) {
+  .calculator {
+    margin-left: 100px;
+  }
+}
+@media screen and (min-width: 500px) {
+  .calculator {
+    margin-left: 100px;
+  }
+}
+@media screen and (min-width: 700px) {
+  .calculator {
+    margin-left: 100px;
+    margin-top: 100px;
+  }
+}
+@media screen and (min-width: 800px) {
+  .calculator {
+    margin-left: 110px;
+    margin-top: 100px;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .calculator {
+    margin-left: 110px;
+    margin-top: 250px;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .calculator {
+    margin-left: 110px;
+    margin-top: 100px;
+  }
 }
 .header {
-    font-weight: 800;
-    color: #fff;
-    display: flex;
-    justify-content:space-around;
-    align-items: center;
-    width: 450px;
-    margin-bottom: 10px;
+  font-weight: 800;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  width: 450px;
+  margin-bottom: 10px;
 }
 .calc {
-    color: #fff
+  color: #fff;
+  margin-right: 50px;
 }
 .calcWhite {
-    color: rgb(27, 27, 27);
+  color: rgb(27, 27, 27);
+  margin-right: 50px;
 }
 .calcPurple {
-    color: #FFE53D;
+  color: #ffe53d;
+  margin-right: 50px;
 }
 .theme-selector-container {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
+  margin-left: 90px;
 }
 .themeSelector {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 20px;
 }
 .themeText {
-    font-size: 12px;
-    margin-top: 25px;
-    color: #fff;
+  font-size: 12px;
+  margin-top: 25px;
+  color: #fff;
 }
 .themeTextWhite {
-    font-size: 12px;
-    margin-top: 25px;
-    color: rgb(27, 27, 27);
+  font-size: 12px;
+  margin-top: 25px;
+  color: rgb(27, 27, 27);
 }
 .themeTextPurple {
-    font-size: 12px;
-    margin-top: 25px;
-    color: #FFE53D;
+  font-size: 12px;
+  margin-top: 25px;
+  color: #ffe53d;
 }
 .themeButton {
-    width: 75px;
-    height: 25px;
-    border: none;
-    border-radius: 30px;
-    background-color: #232C43;
+  width: 75px;
+  height: 25px;
+  border: none;
+  border-radius: 30px;
+  background-color: #232c43;
 }
 .labelText {
-    display: flex;
-    align-items: center;
-    margin-right: 5px;
-    color: #fff;
+  display: flex;
+  align-items: center;
+  margin-right: 5px;
+  color: #fff;
 }
 .labelTextWhite {
-    display: flex;
-    align-items: center;
-    margin-right: 5px;
-    color: rgb(27, 27, 27);
+  display: flex;
+  align-items: center;
+  margin-right: 5px;
+  color: rgb(27, 27, 27);
 }
 .labelTextPurple {
-    display: flex;
-    align-items: center;
-    margin-right: 5px;
-    color: #FFE53D;
+  display: flex;
+  align-items: center;
+  margin-right: 5px;
+  color: #ffe53d;
 }
 .labelStage {
-    font-size: 12px;
-    display: flex;
-    padding: 5px;
-    margin-left: 5px;
+  font-size: 12px;
+  display: flex;
+  padding: 5px;
+  margin-left: 5px;
 }
 .ball {
-    width: 15px;
-    height: 15px; 
-    border-radius: 50px;
-    background-color: #D03F2F;
+  width: 15px;
+  height: 15px;
+  border-radius: 50px;
+  background-color: #d03f2f;
 }
 .ball-move {
-    background-color: #d06a2f;
-    margin-left: calc(100% - 40px);
+  background-color: #d06a2f;
+  margin-left: calc(100% - 40px);
 }
 .ball-move2 {
-    background-color: #129b25;
-    margin-left: calc(100% - 20px);
+  background-color: #129b25;
+  margin-left: calc(100% - 20px);
 }
 .results {
-    width: 310px;
-    height: 70px;
-    border-radius: 10px;
-    background-color: #182034;
-    color: #fff;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    justify-content: space-around;
-    padding: 10px;
-    word-wrap: break-word;
-    word-break: break-all;
+  width: 310px;
+  height: 70px;
+  border-radius: 10px;
+  background-color: #182034;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-around;
+  padding: 10px;
+  word-wrap: break-word;
+  word-break: break-all;
 }
 .resultsWhite {
-    width: 310px;
-    height: 70px;
-    border-radius: 10px;
-    background-color: #D1CCCC;
-    color: rgb(27, 27, 27);
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    justify-content: space-around;
-    padding: 10px;
-    word-wrap: break-word;
-    word-break: break-all;
+  width: 310px;
+  height: 70px;
+  border-radius: 10px;
+  background-color: #d1cccc;
+  color: rgb(27, 27, 27);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-around;
+  padding: 10px;
+  word-wrap: break-word;
+  word-break: break-all;
 }
 .resultsPurple {
-    width: 310px;
-    height: 70px;
-    border-radius: 10px;
-    color: #FFE53D;
-    background-color: #37175e;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    justify-content: space-around;
-    padding: 10px;
-    word-wrap: break-word;
-    word-break: break-all;
+  width: 310px;
+  height: 70px;
+  border-radius: 10px;
+  color: #ffe53d;
+  background-color: #37175e;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-around;
+  padding: 10px;
+  word-wrap: break-word;
+  word-break: break-all;
 }
 .previousOperand {
-    font-size: 1.0rem;
+  font-size: 1rem;
 }
 .currentOperand {
-    font-size: 2.0rem;
+  font-size: 2rem;
 }
 .buttonContainer {
-    height: 430px;
-    width: 330px;
-    border-radius: 10px;
-    background-color: #232C43;
-    margin-top: 25px;
+  height: 430px;
+  width: 330px;
+  border-radius: 10px;
+  background-color: #232c43;
+  margin-top: 25px;
 }
 .buttonContainerWhite {
-    height: 430px;
-    width: 330px;
-    border-radius: 10px;
-    background-color: #D1CCCC;
-    margin-top: 25px;
+  height: 430px;
+  width: 330px;
+  border-radius: 10px;
+  background-color: #d1cccc;
+  margin-top: 25px;
 }
 .buttonContainerPurple {
-    height: 430px;
-    width: 330px;
-    border-radius: 10px;
-    background-color: #37175e;
-    margin-top: 25px;
+  height: 430px;
+  width: 330px;
+  border-radius: 10px;
+  background-color: #37175e;
+  margin-top: 25px;
 }
 .buttons {
-    margin-left: 15px;
-    margin-top: 25px;
+  padding: 14px;
 }
 .button {
-    border: none;
-    color: #444B5A;
-    font-size: 24px;
-    background-color: #fff;
-    width: 60px;
-    height: 65px;
-    border-radius: 5px;
-    margin-left: 10px;
-    margin-top: 10px;
-    cursor: pointer;
-    font-weight: 800;
-    text-align: center;
+  border: none;
+  color: #444b5a;
+  font-size: 24px;
+  background-color: #fff;
+  width: 60px;
+  height: 65px;
+  border-radius: 5px;
+  margin-left: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+  font-weight: 800;
+  text-align: center;
 }
 .button:hover {
-    color: #586070;
-    background-color: rgb(163, 163, 163);
+  color: #586070;
+  background-color: rgb(163, 163, 163);
 }
 .delButton {
-    border: none;
-    color: #ffffff;
-    font-size: 18px;
-    background-color: #637097;
-    width: 60px;
-    height: 65px;
-    border-radius: 5px;
-    margin-left: 10px;
-    cursor: pointer;
-    font-weight: 700;
-    text-align: center;
+  border: none;
+  color: #ffffff;
+  font-size: 18px;
+  background-color: #637097;
+  width: 60px;
+  height: 65px;
+  border-radius: 5px;
+  margin-left: 10px;
+  cursor: pointer;
+  font-weight: 700;
+  text-align: center;
 }
 .delButton:hover {
-    color: #ffffff;
-    background-color: #495374;
+  color: #ffffff;
+  background-color: #495374;
 }
 .finalButton1 {
-    margin: 10px;
-    border: none;
-    color: #ffffff;
-    font-size: 20px;
-    background-color: #637097;
-    width: 135px;
-    height: 65px;
-    border-radius: 5px;
-    cursor: pointer;
+  margin: 10px;
+  border: none;
+  color: #ffffff;
+  font-size: 20px;
+  background-color: #637097;
+  width: 135px;
+  height: 65px;
+  border-radius: 5px;
+  cursor: pointer;
 }
 .finalButton1:hover {
-    color: #ffffff;
-    background-color: #495374;
+  color: #ffffff;
+  background-color: #495374;
 }
 .finalButton2 {
-    border: none;
-    color: #ffffff;
-    font-size: 24px;
-    background-color: #D03F2F;
-    width: 135px;
-    height: 65px;
-    border-radius: 5px;
-    cursor: pointer;
+  border: none;
+  color: #ffffff;
+  font-size: 24px;
+  background-color: #d03f2f;
+  width: 135px;
+  height: 65px;
+  border-radius: 5px;
+  cursor: pointer;
 }
 .finalButton2:hover {
-    color: #ffffff;
-    background-color: #9b3024;
+  color: #ffffff;
+  background-color: #9b3024;
 }
-
