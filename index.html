@@ -1,67 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./img/favicon-32x32.png"
+    />
 
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Calculadora</title>
-  <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon-32x32.png">
-  
-  <!-- League Spartan Font -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&family=Outfit:wght@400;700&family=Poppins:wght@100;300;500;700&display=swap" rel="stylesheet">
+    <!-- League Spartan Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&family=Outfit:wght@400;700&family=Poppins:wght@100;300;500;700&display=swap"
+      rel="stylesheet"
+    />
 
-  <!-- Styles -->
-  <link rel="stylesheet" href="style.css">
-
-</head>
-<body>
-
-  <div class="header">
-    <h1 class="calc" id="calc">calc</h1>
-    <div class="theme-selector-container">
-      <span class="themeText" id="themeText">THEME</span>
-      <div class="themeSelector">
-        <div class='labelText' id="labelText">
-          <label class="labelStage">1</label>
-          <label class="labelStage">2</label>
-          <label class="labelStage">3</label>
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="header">
+      <h1 class="calc" id="calc">calc</h1>
+      <div class="theme-selector-container">
+        <span class="themeText" id="themeText">THEME</span>
+        <div class="themeSelector">
+          <div class="labelText" id="labelText">
+            <label class="labelStage">1</label>
+            <label class="labelStage">2</label>
+            <label class="labelStage">3</label>
+          </div>
+          <button class="themeButton">
+            <div class="ball" id="ball"></div>
+          </button>
         </div>
-        <button class="themeButton">
-          <div class="ball" id="ball"></div>
-        </button>
       </div>
     </div>
-  </div>
-  <div class="results" id="results">
-    <div data-previous-operand class="previousOperand">543 +</div>
-    <div data-current-operand class="currentOperand">324</div>
-  </div>
-  <div class="buttonContainer" id="buttonContainer">
-    <div class="buttons">
-      <button data-number class="button">7</button>
-      <button data-number class="button">8</button>
-      <button data-number class="button">9</button>
-      <button data-delete class="delButton">DEL</button>
-      <button data-number class="button">4</button>
-      <button data-number class="button">5</button>
-      <button data-number class="button">6</button>
-      <button data-operator class="button">+</button>
-      <button data-number class="button">1</button>
-      <button data-number class="button">2</button>
-      <button data-number class="button">3</button>
-      <button data-operator class="button">-</button>
-      <button data-number class="button">.</button>
-      <button data-number class="button">0</button>
-      <button data-operator class="button">/</button>
-      <button data-operator class="button">×</button>
-      <button data-all-clear class="finalButton1">RESET</button>
-      <button data-equals class="finalButton2">=</button>
+    <div class="results" id="results">
+      <div data-previous-operand class="previousOperand">543 +</div>
+      <div data-current-operand class="currentOperand">324</div>
     </div>
-  </div>
+    <div class="buttonContainer" id="buttonContainer">
+      <div class="buttons">
+        <button data-number class="button">7</button>
+        <button data-number class="button">8</button>
+        <button data-number class="button">9</button>
+        <button data-delete class="delButton">DEL</button>
+        <button data-number class="button">4</button>
+        <button data-number class="button">5</button>
+        <button data-number class="button">6</button>
+        <button data-operator class="button">+</button>
+        <button data-number class="button">1</button>
+        <button data-number class="button">2</button>
+        <button data-number class="button">3</button>
+        <button data-operator class="button">-</button>
+        <button data-number class="button">.</button>
+        <button data-number class="button">0</button>
+        <button data-operator class="button">÷</button>
+        <button data-operator class="button">*</button>
+        <button data-all-clear class="finalButton1">RESET</button>
+        <button data-equals class="finalButton2">=</button>
+      </div>
+    </div>
 
-
-  <script src="script.js"></script>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
