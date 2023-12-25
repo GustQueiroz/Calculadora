@@ -42,6 +42,17 @@ body.purple {
 .themeText {
     font-size: 12px;
     margin-top: 25px;
+    color: #fff;
+}
+.themeTextWhite {
+    font-size: 12px;
+    margin-top: 25px;
+    color: rgb(27, 27, 27);
+}
+.themeTextPurple {
+    font-size: 12px;
+    margin-top: 25px;
+    color: #FFE53D;
 }
 .themeButton {
     width: 75px;
@@ -81,13 +92,11 @@ body.purple {
     background-color: #D03F2F;
 }
 .ball-move {
-    width: 15px;
-    height: 15px; 
-    border-radius: 50px;
-    background-color: #D03F2F;
+    background-color: #d06a2f;
     margin-left: calc(100% - 40px);
 }
 .ball-move2 {
+    background-color: #129b25;
     margin-left: calc(100% - 20px);
 }
 .results {
@@ -106,7 +115,7 @@ body.purple {
     width: 330px;
     height: 90px;
     border-radius: 10px;
-    background-color: #2f1450;
+    background-color: #37175e;
 }
 .buttonContainer {
     height: 430px;
@@ -126,7 +135,7 @@ body.purple {
     height: 430px;
     width: 330px;
     border-radius: 10px;
-    background-color: #2f1450;
+    background-color: #37175e;
     margin-top: 25px;
 }
 .buttons {
@@ -146,6 +155,10 @@ body.purple {
     cursor: pointer;
     font-weight: 800;
     text-align: center;
+}
+.button:hover {
+    color: #586070;
+    background-color: rgb(163, 163, 163);
 }
 .delButton {
     border: none;
