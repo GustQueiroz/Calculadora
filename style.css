@@ -100,22 +100,52 @@ body.purple {
     margin-left: calc(100% - 20px);
 }
 .results {
-    width: 330px;
-    height: 90px;
+    width: 310px;
+    height: 70px;
     border-radius: 10px;
     background-color: #182034;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-around;
+    padding: 10px;
+    word-wrap: break-word;
+    word-break: break-all;
 }
 .resultsWhite {
-    width: 330px;
-    height: 90px;
+    width: 310px;
+    height: 70px;
     border-radius: 10px;
-    background-color: #D1CCCC
+    background-color: #D1CCCC;
+    color: rgb(27, 27, 27);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-around;
+    padding: 10px;
+    word-wrap: break-word;
+    word-break: break-all;
 }
 .resultsPurple {
-    width: 330px;
-    height: 90px;
+    width: 310px;
+    height: 70px;
     border-radius: 10px;
+    color: #FFE53D;
     background-color: #37175e;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-around;
+    padding: 10px;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+.previousOperand {
+    font-size: 1.0rem;
+}
+.currentOperand {
+    font-size: 2.0rem;
 }
 .buttonContainer {
     height: 430px;
@@ -173,6 +203,10 @@ body.purple {
     font-weight: 700;
     text-align: center;
 }
+.delButton:hover {
+    color: #ffffff;
+    background-color: #495374;
+}
 .finalButton1 {
     margin: 10px;
     border: none;
@@ -184,6 +218,10 @@ body.purple {
     border-radius: 5px;
     cursor: pointer;
 }
+.finalButton1:hover {
+    color: #ffffff;
+    background-color: #495374;
+}
 .finalButton2 {
     border: none;
     color: #ffffff;
@@ -193,5 +231,9 @@ body.purple {
     height: 65px;
     border-radius: 5px;
     cursor: pointer;
+}
+.finalButton2:hover {
+    color: #ffffff;
+    background-color: #9b3024;
 }
 
