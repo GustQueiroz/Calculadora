@@ -188,3 +188,6 @@ deleteButton.addEventListener("click", () => {
   calculator.delete();
   calculator.updateDisplay();
 });
+
+const audio = new Audio();
+audio.src = "./img/sound.mp3";
